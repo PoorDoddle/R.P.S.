@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, aquamarine, rgb(0, 255, 229));
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap: 1em;
+}
+button {
+  color: white;
+  border-radius: 1em;
+  border-color: transparent;
+  font-size: 1em;
+  background-color: violet;
+  width: 10em;
+  height: 6em;
+}
